@@ -61,7 +61,10 @@ export default function BlogPage() {
       {/* Header */}
       <header className="bg-[#1e2532] text-white py-8 px-4 text-center">
         <div className="max-w-4xl mx-auto space-y-6 lg:flex lg:justify-between ">
-          <h1 className="text-4xl font-bold text-blue-400 flex justify-center "><img src="./logo2.png" alt="logo" className="w-36"/></h1>
+          <h1 className="text-4xl font-bold text-blue-400 flex justify-center ">
+            <img src="./logo2.png" alt="logo" className="w-36"/>
+
+            </h1>
           <div className="space-y-3 ">
             <button className="w-full max-w-md bg-[#1e2532] border-2 border-white text-white py-3 px-6 rounded-lg hover:bg-gray-800 transition-colors m-4">
               bdg05 Register

@@ -17,7 +17,11 @@ export default function BlogPage() {
 
 <header className="bg-[#1e2532] text-white py-8 px-4 text-center">
         <div className="max-w-4xl mx-auto space-y-6 lg:flex lg:justify-between ">
-          <h1 className="text-4xl font-bold text-blue-400 flex justify-center "><img src="./logo2.png" alt="logo" className="w-36"/></h1>
+          <h1 className="text-4xl font-bold text-blue-400 flex justify-center w-full lg:w-[200px] h-auto">
+            {/* <img src="./logo2.png" alt="logo" className="w-36"/> */}
+            {/* <Image src="/logo2.png" alt="logo" fill className="w-36" priority /> */}
+            <Image src="/logo2.png" alt="logo" width={300} height={150}  className="w-36" priority />
+            </h1>
           <div className="space-y-3 ">
           <a href="https://bdg05.in/#/register?invitationCode=305243021284" className="">
             <button className="w-full max-w-md bg-[#1e2532] border-2 border-white text-white py-3 px-6 rounded-lg hover:bg-gray-800 transition-colors m-4">
